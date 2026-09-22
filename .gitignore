@@ -17,6 +17,9 @@ dist/
 .netlify/
 .vercel/
 
+# Copie locale imbriquée du dépôt (ne pas ajouter comme sous-module)
+/Valmora/
+
 # Tests et couverture
 coverage/
 playwright-report/
