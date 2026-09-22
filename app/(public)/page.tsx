@@ -27,7 +27,7 @@ export default async function HomePage() {
     <div className="travel-journal">
       <section className="journal-hero container-app">
         <div className="journal-kicker"><span>Des lieux à vivre · France</span><span>La collection Valmora</span></div>
-        <h1>Et si l’ailleurs<br />devenait <em>chez vous ?</em></h1>
+        <h1>Vos plus beaux séjours<br />commencent <em>ici.</em></h1>
         <div className="hero-composition">
           <div className="hero-note"><span className="journal-index">01 / L’envie d’ailleurs</span><p>Il y a des lieux où l’on se sent bien. Tout simplement.</p><p>Chalets, villas, appartements et mobil-homes : trouvez le décor de votre prochaine histoire.</p><Link className="journal-button" href="/appartements">Trouver mon lieu <ArrowUpRight size={19} /></Link><a href="#collections" className="journal-scroll"><ArrowDown size={16} /> Prendre le temps de découvrir</a></div>
           <figure className="hero-photo"><Image src="/properties/grand-bornand/IMG_4225.jpeg" alt="Un salon en bois ouvert sur le paysage verdoyant du Grand-Bornand" fill priority sizes="(max-width: 767px) 100vw, 65vw" className="object-cover" /><figcaption><span>Un matin au Grand-Bornand</span><span>Alpes françaises ↗</span></figcaption></figure>
