@@ -1,0 +1,36 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Dépendances
+node_modules/
+
+# Compilation Next.js et TypeScript
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Déploiements locaux
+.netlify/
+.vercel/
+
+# Tests et couverture
+coverage/
+playwright-report/
+test-results/
+
+# Journaux et fichiers temporaires
+*.log
+*.pid
+*.pid.lock
+*.swp
+*.swo
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+Desktop.ini
