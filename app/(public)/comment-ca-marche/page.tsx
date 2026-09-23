@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Search, CalendarClock, FileCheck2, KeyRound, Building2, PenTool } from 'lucide-react';
+import { Search, Building2, PenTool } from 'lucide-react';
 import { FadeIn } from '@/components/ui/fade-in';
 import { SectionHeading } from '@/components/ui/section-heading';
 
@@ -22,27 +22,10 @@ const STEPS = [
       'Consultez les photos, la description détaillée, les équipements et la localisation approximative de chaque logement.',
   },
   {
-    icon: CalendarClock,
-    title: 'Réservez une visite',
-    description:
-      'Sélectionnez une date et un créneau horaire, renseignez vos coordonnées, puis envoyez votre demande.',
-  },
-  {
     icon: PenTool,
     title: 'Effectuez les formalités',
     description:
       'Indiquez simplement vos coordonnées, la date souhaitée et la durée de votre séjour.',
-  },
-  {
-    icon: FileCheck2,
-    title: 'Réservez le logement',
-    description:
-      'Une fois votre dossier examiné et accepté par notre équipe, votre demande de réservation est validée.',
-  },
-  {
-    icon: KeyRound,
-    title: 'Emménagez',
-    description: 'Votre dossier validé, l’agence organise manuellement les formalités et la remise des clés.',
   },
 ];
 
