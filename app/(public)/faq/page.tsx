@@ -4,17 +4,17 @@ import { FadeIn } from '@/components/ui/fade-in';
 
 export const metadata: Metadata = {
   title: 'FAQ',
-  description: 'Questions fréquentes sur les demandes de visite et de réservation chez Valmora.',
+  description: 'Questions fréquentes sur les demandes de réservation et l’accompagnement chez Valmora.',
 };
 
 const CATEGORIES = [
   {
-    title: 'Visites',
+    title: 'Prise de contact',
     items: [
       {
-        question: 'Comment réserver une visite ?',
+        question: 'Comment demander un logement ?',
         answer:
-          'Depuis la fiche d’un logement, cliquez sur « Réserver une visite », choisissez une date et un créneau, puis envoyez votre demande. Notre équipe vous contacte ensuite pour confirmer le rendez-vous.',
+          'Depuis la fiche d’un bien, choisissez celui qui vous convient, puis envoyez votre demande via le formulaire dédié. Notre équipe vous répond ensuite pour valider le projet et organiser la suite.',
       },
       {
         question: 'Dois-je payer pour envoyer une demande ?',
@@ -22,9 +22,9 @@ const CATEGORIES = [
           'Votre demande est enregistrée avant le paiement. Une dernière étape affiche le lien de paiement configuré par l’agence. Après le paiement, envoyez une capture justificative à contact@valmora.fr en précisant votre référence.',
       },
       {
-        question: 'Puis-je changer la date de ma visite ?',
+        question: 'Puis-je modifier ma demande ?',
         answer:
-          'Oui, contactez notre équipe via le formulaire de contact en indiquant votre référence de visite ; nous vous proposerons un nouveau créneau disponible.',
+          'Oui, contactez notre équipe via le formulaire de contact en indiquant votre référence ; nous vous proposerons la meilleure option disponible.',
       },
     ],
   },
@@ -49,7 +49,7 @@ const CATEGORIES = [
       {
         question: 'Sous quel délai recevrai-je une réponse à ma demande ?',
         answer:
-          'Nous répondons généralement aux demandes de visite et de réservation sous 48 heures ouvrées.',
+          'Nous répondons généralement aux demandes et réservations sous 48 heures ouvrées.',
       },
     ],
   },
@@ -64,7 +64,7 @@ export default function FaqPage() {
           Questions fréquentes
         </h1>
         <p className="mt-3 max-w-xl text-ink-500">
-          Tout ce qu’il faut savoir pour demander une visite ou réserver un logement.
+          Tout ce qu’il faut savoir pour demander un logement ou réserver votre prochain séjour.
         </p>
       </FadeIn>
 

@@ -18,7 +18,7 @@ const collections = [
 ];
 const steps = [
   ['Laissez-vous inspirer', 'Explorez les lieux et affinez votre recherche par destination, budget et capacité.'],
-  ['Faisons connaissance', 'Demandez une visite ou transmettez votre projet de location à notre équipe.'],
+  ['Faisons connaissance', 'Partagez votre projet de location et notre équipe vous accompagne.'],
   ['Écrivez la suite', 'Suivez votre dossier depuis votre compte, jusqu’à sa validation et la remise des clés.'],
 ];
 export default async function HomePage() {

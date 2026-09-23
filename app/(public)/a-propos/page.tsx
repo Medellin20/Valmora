@@ -42,7 +42,7 @@ export default function AProposPage() {
               Votre partenaire pour des lieux d’exception en France
             </h1>
             <p className="mt-4 max-w-xl text-sand-200">
-              Valmora accompagne voyageurs et locataires dans la découverte, la visite et la
+              Valmora accompagne voyageurs et locataires dans la découverte, la sélection et la
               réservation de chalets et villas soigneusement sélectionnés.
             </p>
           </FadeIn>
@@ -57,7 +57,7 @@ export default function AProposPage() {
               title="Rendre la location haut de gamme simple et transparente"
             />
             <p className="mt-4 leading-relaxed text-ink-500">
-              Valmora réunit sur une même plateforme des annonces vérifiées, un processus de visite
+              Valmora réunit sur une même plateforme des annonces vérifiées, un accompagnement
               structuré et un suivi rigoureux de chaque réservation, de la première demande jusqu’à
               la remise des clés.
             </p>

@@ -12,26 +12,19 @@ export default function ConditionsGeneralesPage() {
         services de mise en relation pour la location de chalets et villas en France.
       </p>
 
-      <h2>Demandes de visite</h2>
-      <p>
-        L’envoi d’une demande de visite depuis le site ne nécessite aucun paiement. Le créneau
-        demandé reste soumis à confirmation par Valmora, qui contacte le client pour
-        organiser le rendez-vous.
-      </p>
-
       <h2>Demandes de réservation</h2>
       <p>
-        L’envoi d’une demande de réservation ne vaut pas acceptation définitive et ne nécessite
-        aucun paiement sur le site. Valmora examine le dossier, communique sa décision et
-        organise directement avec le client les éventuelles formalités ultérieures.
+        L’envoi d’une demande de réservation depuis le site ne nécessite aucun paiement. Valmora
+        examine ensuite le dossier, contacte le client si nécessaire et organise la suite du
+        traitement avec le propriétaire ou gestionnaire concerné.
       </p>
 
       <h2>Étape de paiement</h2>
       <p>
-        Après l’enregistrement de la demande de visite ou de réservation, une dernière étape
-        présente le lien de paiement lorsqu’il est disponible. Après le paiement, le client envoie
-        une capture d’écran justificative à contact@valmora.fr avec la référence
-        de sa demande. Valmora vérifie le justificatif avant de confirmer la suite du dossier.
+        Après l’enregistrement de la demande de réservation, une dernière étape présente le lien de
+        paiement lorsqu’il est disponible. Après le paiement, le client envoie une capture d’écran
+        justificative à contact@valmora.fr avec la référence de sa demande. Valmora vérifie le
+        justificatif avant de confirmer la suite du dossier.
       </p>
 
       <h2>Responsabilité</h2>

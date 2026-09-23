@@ -100,15 +100,15 @@ export default async function MonComptePage({ searchParams }: { searchParams: { 
         )}
       </section>
 
-      {/* VISITES */}
+      {/* DEMANDES / DOSSIERS */}
       <section>
         <h2 className="mb-4 flex items-center gap-2 text-lg font-bold text-ink-900">
           <CalendarClock className="h-5 w-5 text-canal-600" />
-          Mes demandes de visite
+          Mes demandes de réservation
         </h2>
 
         {dossier.viewings.length === 0 ? (
-          <EmptyState title="Aucune visite demandée" description="Réservez une visite depuis la fiche d’un logement." />
+          <EmptyState title="Aucune demande de réservation" description="Parcourez nos logements et envoyez votre dossier depuis la fiche d’un bien." />
         ) : (
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             {dossier.viewings.map((viewing: any) => (
@@ -151,7 +151,7 @@ function EmailLookupScreen({ notFoundEmail }: { notFoundEmail?: string }) {
         </div>
         <h1 className="mt-4 text-center text-xl font-extrabold text-ink-900">Accéder à mon dossier</h1>
         <p className="mt-1.5 text-center text-sm text-ink-500">
-          Saisissez l’adresse e-mail utilisée lors de votre demande de visite ou de réservation.
+          Saisissez l’adresse e-mail utilisée lors de votre demande de réservation.
         </p>
 
         {notFoundEmail && (

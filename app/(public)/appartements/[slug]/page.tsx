@@ -189,7 +189,7 @@ export default async function PropertyDetailPage({ params }: PageProps) {
                   <p className="mt-2 text-3xl font-extrabold text-ink-900">{formatPrice(property.monthly_price)} <span className="text-sm font-normal">/ {property.property_type === 'furnished_studio' ? 'mois' : 'semaine'}</span></p>
                   {property.service_charges > 0 && <p className="mt-3 text-sm text-ink-600">{property.property_type === 'furnished_studio' ? 'Charges mensuelles' : 'Forfait ménage'} : {formatPrice(property.service_charges)}</p>}
                   {property.deposit_amount > 0 && <p className="mt-2 text-sm text-ink-600">Dépôt de garantie : {formatPrice(property.deposit_amount)}</p>}
-                  {property.viewing_fee > 0 && <p className="mt-2 text-sm text-ink-600">Frais de visite : {formatPrice(property.viewing_fee)}</p>}
+                  {property.viewing_fee > 0 && <p className="mt-2 text-sm text-ink-600">Frais de dossier : {formatPrice(property.viewing_fee)}</p>}
                 </div>
               ) : property.property_type === 'villa' ? (
                 <SeasonalPriceSelector

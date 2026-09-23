@@ -8,16 +8,15 @@ export default function ConfidentialitePage() {
     <LegalPage title="Politique de confidentialité" updatedAt="21 août 2026">
       <h2>Données collectées</h2>
       <p>
-        Dans le cadre de vos démarches (demande de visite, réservation, contact), nous collectons :
-        nom, prénom, e-mail, téléphone et informations relatives au séjour demandé
-        approximatifs et les informations complémentaires que vous choisissez de nous transmettre.
+        Dans le cadre de vos démarches (demande de réservation, contact), nous collectons : nom,
+        prénom, e-mail, téléphone et informations relatives au séjour demandé et aux informations
+        complémentaires que vous choisissez de nous transmettre.
       </p>
 
       <h2>Finalités du traitement</h2>
       <p>
-        Ces données sont utilisées exclusivement pour traiter vos demandes de visite et de
-        réservation, assurer le suivi de votre dossier locataire, et vous contacter dans le cadre de
-        ces démarches.
+        Ces données sont utilisées exclusivement pour traiter vos demandes de réservation, assurer
+        le suivi de votre dossier locataire, et vous contacter dans le cadre de ces démarches.
       </p>
 
       <h2>Conservation des données</h2>

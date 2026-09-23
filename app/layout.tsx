@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: 'Valmora',
     title: 'Valmora — Biens à louer en France',
     description:
-      'Recherchez, visitez et réservez votre prochain logement en toute confiance.',
+      'Recherchez et réservez votre prochain logement en toute confiance.',
     url: siteUrl,
   },
   twitter: {

@@ -5,7 +5,7 @@ import { SectionHeading } from '@/components/ui/section-heading';
 
 export const metadata: Metadata = {
   title: 'Comment ça marche',
-  description: 'Découvrez les étapes pour trouver, visiter et réserver votre chalet ou villa avec Valmora.',
+  description: 'Découvrez les étapes pour trouver et réserver votre chalet ou villa avec Valmora.',
 };
 
 const STEPS = [
