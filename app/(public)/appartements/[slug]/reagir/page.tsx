@@ -30,11 +30,19 @@ export default async function ReactToPropertyPage({ params }: { params: { slug: 
 
 function Choice({ href, icon: Icon, title, description }: { href: string; icon: LucideIcon; title: string; description: string }) {
   return (
-    <Link href={href} className="group rounded-2xl border border-ink-100 bg-white p-7 text-left shadow-soft transition hover:-translate-y-1 hover:border-canal-300 hover:shadow-lifted">
-      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-canal-50 text-canal-600"><Icon className="h-6 w-6" /></span>
+    <Link
+      href={href}
+      className="group block rounded-3xl border border-ink-100 bg-white p-6 text-left shadow-soft transition duration-200 hover:-translate-y-1 hover:border-canal-300 hover:shadow-lifted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-canal-600 focus-visible:ring-offset-4 sm:p-8"
+    >
+      <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-canal-50 text-canal-700">
+        <Icon className="h-6 w-6" />
+      </span>
       <h2 className="mt-5 text-xl font-extrabold text-ink-900">{title}</h2>
-      <p className="mt-2 text-sm leading-relaxed text-ink-500">{description}</p>
-      <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-canal-700">Continuer <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></span>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-500">{description}</p>
+      <span className="mt-7 inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-ink-800 px-5 py-3 text-sm font-bold text-white shadow-soft transition-colors group-hover:bg-ink-900">
+        Continuer
+        <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+      </span>
     </Link>
   );
 }
